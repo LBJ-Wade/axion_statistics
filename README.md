@@ -17,6 +17,8 @@ for Machine Learning: tensorflow 1.5
 
 3. Use python ALPmod.py to generate survivalProbs_\*Bfield.mod table models as input for PyXspec.
 
-4. Run python PyXspec_\*instrument.py to perform PyXspec scan over all \*.mod files. Output: g_chisq.txt 
+4. Run python PyXspec.py to perform PyXspec scan over all \*.mod files. Output: g_chisq.txt 
 
-5. Run python Analyze_\*instrument.py to analyze g_chsiq.txt. Outputs: histo_\*.pdf and g_deltachi2.pdf
+5. Run python Analyze.py to analyze g_chsiq.txt. Outputs: histo_\*.pdf and g_deltachi2.pdf
+
+6. Residuals can also be fed to the machine learning algorithm described in tf.py.
